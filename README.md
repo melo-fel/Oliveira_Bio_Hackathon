@@ -19,9 +19,9 @@ Visualize cell lineage trees from tracking data, compute lineage statistics, and
 ## Install
 
 *Python 3.9 and up is recommended*
+
 pip install pandas numpy matplotlib networkx pillow
 
 ## Run in terminal
 
 python lineage_challenge3.py --csv /path/to/your.csv --topk 5 --outdir ./outputs
-
