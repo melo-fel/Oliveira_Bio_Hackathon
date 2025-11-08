@@ -17,9 +17,11 @@ Visualize cell lineage trees from tracking data, compute lineage statistics, and
 5. **Bonus animation**: shows the lineage evolving over frames with **live connections** between alive nodes.
 
 ## Install
-# Python 3.9 and up is recommended
+
+*Python 3.9 and up is recommended*
 pip install pandas numpy matplotlib networkx pillow
 
 ## Run in terminal
 
 python lineage_challenge3.py --csv /path/to/your.csv --topk 5 --outdir ./outputs
+
